@@ -4,7 +4,7 @@ Officially, Python 3.9 and above are not supported on Windows 7 SP1 and Windows 
 
 *Note:* Windows update KB2533623 must be installed for Python to run. Ensure that your computer is up-to-date via Windows Update. Alternatively, you can manually install update KB3063858, which supersedes KB2533623. Update KB3063858 can be obtained at the following link for [32-bit Windows](https://www.microsoft.com/en-us/download/details.aspx?id=47409) or [64-bit Windows](https://www.microsoft.com/en-gb/download/details.aspx?id=47442).
 
-*Note:* Microsoft C++ Redistributable must be installed [32-bit and 64-bit](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+*Note:* Microsoft Visual C++ Redistributable must be installed [32-bit and 64-bit](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) to fix error 0x80070643.
 
 For each Python version, this repository includes the following.
 - 64-bit executable installer (e.g. python-3.9.0-amd64-full.exe)
